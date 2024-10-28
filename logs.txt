@@ -1,0 +1,42 @@
+Listening for transport dt_socket at address: 8000
+27-Oct-2024 11:38:10.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0
+27-Oct-2024 11:38:10.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 17:00:16 UTC
+27-Oct-2024 11:38:10.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+27-Oct-2024 11:38:10.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Oct-2024 11:38:10.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.10.13-3-MANJARO
+27-Oct-2024 11:38:10.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2024 11:38:10.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+27-Oct-2024 11:38:10.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+11-LTS
+27-Oct-2024 11:38:10.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Oct-2024 11:38:10.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+27-Oct-2024 11:38:10.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+27-Oct-2024 11:38:10.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+27-Oct-2024 11:38:10.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+27-Oct-2024 11:38:10.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+27-Oct-2024 11:38:10.417 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.2].
+27-Oct-2024 11:38:10.420 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+27-Oct-2024 11:38:10.654 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2024 11:38:10.672 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [404] milliseconds
+27-Oct-2024 11:38:10.708 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2024 11:38:10.708 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0]
+27-Oct-2024 11:38:10.723 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/ROOT.war]
+27-Oct-2024 11:38:11.359 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2024 11:38:11.550 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+27-Oct-2024 11:38:11.699 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 5.1.2 (Final)
+27-Oct-2024 11:38:11.801 INFO [main] org.jboss.weld.environment.deployment.discovery.ReflectionDiscoveryStrategy.processAnnotatedDiscovery WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+27-Oct-2024 11:38:11.850 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+27-Oct-2024 11:38:12.222 INFO [main] org.jboss.weld.environment.se.WeldContainer.fireContainerInitializedEvent WELD-ENV-002003: Weld SE container cfa25e12-8a6f-4a03-9bd6-7675a0b78adc initialized
+27-Oct-2024 11:38:12.303 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/ROOT.war] has finished in [1,579] ms
+27-Oct-2024 11:38:12.316 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2024 11:38:12.325 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1652] milliseconds
